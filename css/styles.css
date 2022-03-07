@@ -25,6 +25,15 @@
 }
 #About p {
   color:black;
+  font-size:large;
+  font-weight:500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#About h5 {
+  text-transform: uppercase;
   font-size: larger;
   font-weight: 800;
+}
+.icon {
+  width: 40px;
 }
