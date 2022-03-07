@@ -1,10 +1,10 @@
 .carousel-inner {
     width: 100%;
-    height: 105vh;
+    height: 100vh;
   }
   .carousel-item {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
   }
   .carousel-item h5 {
     color:black;
@@ -20,8 +20,11 @@
   .carousel-item p {
     color: black;
   }
-  .About img {
-    height: 60vh;
-    width: 30%;
-    float: left;
-  }
+.card-img {
+  height: 100vh;
+}
+#About p {
+  color:black;
+  font-size: larger;
+  font-weight: 800;
+}

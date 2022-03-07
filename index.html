@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">AKAN NAMES</a>
+          <a class="navbar-brand" href="#">AKAN NAME FINDER</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -43,14 +43,14 @@
                   <div class="carousel-item active">
                     <img src="./images/image1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
-                      <h5>AKAN NAMES</h5>
+                      <h5>AKAN NAME FINDER</h5>
                       <p>Calculates the day of your birth</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./images/image2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
-                      <h5>AKAN NAMES</h5>
+                      <h5>AKAN NAME FINDER</h5>
                       <p>Then assigns an Akan name to you</p>
                     </div>
                   </div>
@@ -76,12 +76,13 @@
           </div>
         </div>
         <div class="col-md-6">
-            <p>This application takes in your birthday details and your gender, calculates the particular day you were
+          <ul>
+            <li><p>This application takes in your birthday details and your gender, calculates the particular day you were
             born, then assigns you an Akan name.
-            </p>
-            <p>Akan names come from the Ghanian culture where children are given names depending on the day of the week they are born, 
-            and of course the gender to which they belong.
-            </p>
+            </p></li>
+            <li><p>Akan names come from the Ghanian culture where children are given names depending on the day of the week they are born, 
+            and of course the gender to which they belong.</p></li>          
+          </ul>
         </div>
     </div>
    
@@ -97,17 +98,16 @@
               <p class="card-text"> </p>
               <form>
                 <label for="date">Date of Birth:</label><br>
-                <input type="date" id="dob" name="date"/>
-                <br/>
-                <label for="gender">Gender:</label>
+                <input type="date" id="dob" name="date"/><br/><br>            
+                <label for="gender">Gender:</label><br>
                 <select id="gender">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
-                </select>        
-                <input type="submit" id="submit"  value="Submit">               
+                </select><br><br><br>       
+                <input type="submit" id="submit"  value="Submit"><br>             
               </form>
               <div id="response"></div>
-              <script src="./index.js"></script>
+              <script src="./akan.js"></script>
             </div>
           </div>
         </div>
