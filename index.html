@@ -68,13 +68,20 @@
         </div>
     </div>
     <div class="row container" id="About">
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./images/image3.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
+        <h5>About</h5>
+        <div class="col-md-6">
+          <div class="card mb-3">
+          <img src="./images/image3.jpg" class="card-img-top" alt="About">
+        </div>
+    
+      </div>
+        <div class="col-md-6">
+          <p>This application takes in your birthday details and your gender, calculates the particular day you were
+          born, then depending on the day your were born and your gender, it gives an output of your Akan name
+          .</p>
+    
+        </div>
+      </div>
               <h5 class="ABOUT"></h5>
               <p class="card-text">This application takes in your birthday details and your gender, calculates the particular day you were
                 born, then depending on the day your were born and your gender, it gives an output of your Akan na</p>
@@ -92,6 +99,20 @@
               <h5 class="card-title">FIND OUT WHAT YOUR AKAN NAME IS</h5>
               <p class="card-text">Fill in your birthday details and choose your gender</p>
               <p class="card-text"> Then click submit to get your Akan name.</p>
+              <form action="/action_page.php">
+                <label for="date">Date of Birth:</label><br>
+                <input type="date" id="dob" name="date" value=""><br>
+                <label for="gender">Gender:</label><br>
+                <select id="gender"><br><br>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>         
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
     
 
