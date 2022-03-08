@@ -20,8 +20,9 @@ assigned Akan name, which is dispayed on the page.
 ## Technologies Used
 The application is done using HTML,CSS and Javascript languages and it utilizes the Bootsrap framework.
 ### License
-Nyawira-Wachira/Akan-Names is licensed under the
-MIT License.
+Nyawira-Wachira/Akan-Names is licensed under the MIT License.
+
+
 Here is a link to the license https://github.com/Nyawira-Wachira/Akan-Names/blob/master/LICENSE
 
 Copyright (c) {2022} **{Nyawira Wachira}**
