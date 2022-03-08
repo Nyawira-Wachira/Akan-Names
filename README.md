@@ -30,4 +30,4 @@ Nyawira-Wachira/Akan-Names is licensed under the MIT License.
 
 Here is a link to the license https://github.com/Nyawira-Wachira/Akan-Names/blob/master/LICENSE
 
-Copyright (c) {2022} **{Nyawira Wachira}**
+Copyright (c) 2022 **Nyawira Wachira**
