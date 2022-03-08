@@ -1,5 +1,5 @@
 ## {Application Name}
-### AKAN NAME FINDER
+#### AKAN NAME FINDER
 #### {Brief description of application}
 It is an application that uses date of birth to calculate day of birth; then assigns an Akan name to a user depending on day calculated and gender.
 
