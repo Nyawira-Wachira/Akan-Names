@@ -11,14 +11,14 @@ Afterwards, an Akan name is assigned to them depending on the day of birth and t
 assigned Akan name, which is dispayed on the page.
 
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Clone this repository to a location in your files.
+* Open your terminal command line and navigate to the root folder of the application.
+* Open index.html on your browser.
 ## Technologies Used
-The application is done using HTML,CSS and Javascript languages and it utilizes the Bootsrap framework.
+* HTML and CSS
+* Javascript
+* Bootsrap framework
+* Favicons
 ### License
 Nyawira-Wachira/Akan-Names is licensed under the MIT License.
 
