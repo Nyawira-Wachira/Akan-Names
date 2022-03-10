@@ -6,17 +6,8 @@ const main = () => {
 
     const response =
     document.getElementById("response");
-
-    const CC = parseInt(dob.split("-")
-    [0].toString().slice(0,2));
-
-    const YY = parseInt(dob.split("-")
-    [0].slice(2,4));
-
-    const MM = parseInt(dob.split("-")[1]);
-    const DD = parseInt(dob.split("-")[2]);
-
-    let day = (((CC/4)-2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD)%7
+ if (validate(dob,gender)){
+    let day = new Date(dob).getDay();
     const akans = [
         {
             day: "Sunday",
@@ -56,16 +47,30 @@ const main = () => {
     ];
     
     if (gender === "male") {
-        response.innerText = "Your Akan name is :" + akans[day.toFixed()].male;
+        response.innerText = "Your Akan name is :" + akans[day].male;
     } else {
-        response.innerText = "Your Akan name is :" + akans[day.toFixed()].female;
+        response.innerText = "Your Akan name is :" + akans[day].female;
     }
+    } else {
+    alert("invalid entry!")
+    }
+   
+    
 }
 
 document.getElementById("submit").addEventListener("click", (Event) => {
     Event.preventDefault();
     main();
 });
+const validate = (dob,gender)=> {
+    if(!dob || !gender){
+    return false
+    } else {
+        return true
+    }
+
+}
+
        
 
 
